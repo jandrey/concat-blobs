@@ -1,4 +1,3 @@
-const fetch = require('node-fetch') ;
 
 async function concatBlobs(urls: string[], type: string, object?: boolean) {
   function readFileAsync(blob: Blob) {

@@ -19,8 +19,7 @@
   "scripts": {
     "build": "tsc --outDir dist",
     "dev": "tsc --watch",
-    "lint": "prettier --write .",
-    "test": "jest"
+    "lint": "prettier --write ."
   },
   "files": [
     "dist/module.js"
